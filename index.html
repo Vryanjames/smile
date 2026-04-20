@@ -794,7 +794,7 @@
                     <div class="menu-label">Message</div>
                 </div>
                 <div class="menu-item" onclick="showSection('flower')">
-                    <img src="spark.png" alt="Flower" class="menu-icon">
+                    <img src="tulips.png" alt="Flower" class="menu-icon">
                     <div class="menu-label">Flower</div>
                 </div>
                 <div class="menu-item" onclick="showSection('cake')">
@@ -853,10 +853,10 @@
         <div class="content-section" id="flowerSection">
             <div class="flower-container">
                 <div class="flower-display">
-                    <img src="spark.png" alt="flower" class="flower-img">
+                    <img src="tulips.png" alt="tulips" class="flower-img">
                 </div>
                 <div class="flower-message">
-                    "Like a flower, your beauty radiates from within and brightens every room you enter. This rose is for you, my love."
+                    "Like these tulips, your beauty radiates from within and brightens every room you enter. These flowers are for you, my love."
                 </div>
             </div>
             <button class="back-btn" onclick="backToMenu()">
@@ -907,17 +907,17 @@
                     </div>
                     <div class="photo-booth">
                         <div class="photo-booth-img">
-                            <img src="bliss.png" alt="photo 6">
+                            <img src="tulips.png" alt="photo 6">
                         </div>
                     </div>
                     <div class="photo-booth">
                         <div class="photo-booth-img">
-                            <img src="bond.png" alt="photo 7">
+                            <img src="bliss.png" alt="photo 7">
                         </div>
                     </div>
                     <div class="photo-booth">
                         <div class="photo-booth-img">
-                            <img src="heart.png" alt="photo 8">
+                            <img src="bond.png" alt="photo 8">
                         </div>
                     </div>
                 </div>
@@ -958,12 +958,12 @@
                 <div class="final-hearts">
                     <img src="heart.png" alt="heart" style="width: 50px; height: 50px;">
                     <img src="bliss.png" alt="bliss" style="width: 50px; height: 50px;">
-                    <img src="spark.png" alt="spark" style="width: 50px; height: 50px;">
+                    <img src="tulips.png" alt="tulips" style="width: 50px; height: 50px;">
                 </div>
                 <h1>I love you, Hanna</h1>
                 <p>I love you so much</p>
                 <div class="final-hearts">
-                    <img src="spark.png" alt="spark" style="width: 50px; height: 50px;">
+                    <img src="tulips.png" alt="tulips" style="width: 50px; height: 50px;">
                     <img src="bond.png" alt="bond" style="width: 50px; height: 50px;">
                     <img src="heart.png" alt="heart" style="width: 50px; height: 50px;">
                 </div>
@@ -976,7 +976,7 @@
         // Create floating hearts
         function createHearts() {
             const container = document.getElementById('heartsBg');
-            const heartImages = ['heart.png', 'bliss.png', 'spark.png', 'bond.png'];
+            const heartImages = ['heart.png', 'bliss.png', 'tulips.png', 'bond.png', 'spark.png'];
             
             setInterval(() => {
                 const heart = document.createElement('div');
@@ -1100,7 +1100,7 @@
             document.getElementById('finalMessage').style.display = 'flex';
             
             // Create explosion of floating images
-            const images = ['heart.png', 'bliss.png', 'spark.png', 'bond.png'];
+            const images = ['heart.png', 'bliss.png', 'tulips.png', 'bond.png', 'spark.png'];
             for (let i = 0; i < 20; i++) {
                 setTimeout(() => {
                     const img = document.createElement('div');
